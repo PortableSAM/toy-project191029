@@ -1,11 +1,35 @@
 import React, { Component } from "react";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import "./App.css";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>hello React</h1>
+      <div className="demo-big-content">
+        <Layout>
+          <Header title="Title" scroll>
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/about">About</Link>
+              <Link to="/project">Project</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Header>
+          <Drawer title="Title">
+            <Navigation>
+              <Link to="/resume">Resume</Link>
+              <Link to="/about">About</Link>
+              <Link to="/project">Project</Link>
+              <Link to="/contact">Contact</Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main />
+          </Content>
+        </Layout>
       </div>
     );
   }
