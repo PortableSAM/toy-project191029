@@ -32,6 +32,10 @@
   height: 100vh;
 }
 
+.project-grid {
+  display: flex;
+}
+
 .avatar-img {
   height: 100px;
   padding-top: 1.5em;
