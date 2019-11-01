@@ -29,7 +29,7 @@ class Project extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover"
+                  "url(https://ko.reactjs.org/logo-og.png) center / cover"
               }}
             >
               React Project #1
@@ -56,7 +56,7 @@ class Project extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FdDU2wy%2Fbtqv3I89S7A%2F5OuBt7iL7aTVFjopV0XbV0%2Fimg.png) center / cover"
+                  "url(https://miro.medium.com/max/1200/1*DN7ToydkJZEdVaJVK_Nhvw.png) center / cover"
               }}
             >
               JavaScript Project #1
