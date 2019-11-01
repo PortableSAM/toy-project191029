@@ -16,7 +16,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Beginner Front-End Developer</h1>
               <hr />
-              <p>HTML/CSS | JavaScript | React | React Native</p>
+              <p>HTML/CSS | JS | React</p>
 
               <div className="social-links">
                 {/* FaceBook */}

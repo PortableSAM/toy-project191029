@@ -29,7 +29,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .avatar-img {
@@ -73,4 +73,25 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+@media all and (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .banner-text hr {
+    border-top: 3px dotted white;
+  }
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+  }
+  .social-links i {
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+  }
 }
