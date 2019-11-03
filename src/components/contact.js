@@ -11,7 +11,6 @@ class Contact extends Component {
             <img
               src="https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408_960_720.png"
               alt="avatar"
-              style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               The European languages are members of the same family. Their
