@@ -12,7 +12,7 @@ class App extends Component {
           <Header className="header-color" title="Portable SAM" scroll>
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
+              <Link to="/resume">Resume</Link>
               <Link to="/project">Project</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
@@ -20,7 +20,7 @@ class App extends Component {
           <Drawer title="Portable SAM">
             <Navigation>
               <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
+              <Link to="/resume">Resume</Link>
               <Link to="/project">Project</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>

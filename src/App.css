@@ -12,6 +12,14 @@
 .project-grid {
   display: flex;
 }
+/* resume page css */
+
+.resume-right-col {
+  background: #ffbe76;
+  color: #30336b;
+  border-radius: 25px;
+}
+
 /* contact page css */
 
 .contact-body {
@@ -66,9 +74,8 @@
   margin: auto;
 }
 .contact-list i {
-  font-size: 50px;
-  padding-right: 3rem;
-  padding-left: 3rem;
+  font-size: 45px;
+  padding-right: 1.5rem;
 }
 
 .contact-list-1,

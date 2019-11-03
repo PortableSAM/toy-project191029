@@ -18,6 +18,7 @@ class Project extends Component {
     super(props);
     this.state = { activeTab: 0 };
   }
+
   toggleCategoris() {
     if (this.state.activeTab === 0) {
       return (
