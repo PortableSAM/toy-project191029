@@ -8,10 +8,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Portable SAM</h2>
-            <img
-              src="https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408_960_720.png"
-              alt="avatar"
-            />
+            <img src="https://svgsilh.com/svg/2027366.svg" alt="avatar" />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               The European languages are members of the same family. Their
             </p>
